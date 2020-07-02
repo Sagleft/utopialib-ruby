@@ -1,4 +1,5 @@
-# utopialib-ruby
+
+![logo](https://github.com/Sagleft/utopialib-ruby/raw/master/logo.png)
 
 ## Install
 
