@@ -6,21 +6,27 @@
 gem install utopialib
 ```
 
-dev tests
+## How to run tests from examples
+
+First, you need gem to load the environment variables, which is used in the examples:
 
 ```bash
-cd lib
-irb
+gem install dotenv
 ```
 
-then
+Make changes to `.env`:
 
-```ruby
-load './utopialib.rb'
+```bash
+cp example.env .env
 ```
 
-& do something. for example:
+and run in cli:
 
-```ruby
-client = UtopiaClient.new()
+```bash
+ruby example2.rb
 ```
+
+LICENSE
+---
+
+MIT license
