@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name          = "utopialib"
-  s.version       = "1.0.0"
+  s.version       = "1.0.1"
   s.date          = "2020-06-24"
   s.summary       = "UtopiaLib"
   s.description   = "Ruby library for Utopia Network API"
