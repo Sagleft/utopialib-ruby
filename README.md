@@ -24,7 +24,19 @@ cp example.env .env
 and run in cli:
 
 ```bash
-ruby example2.rb
+cd examples
+ruby example1.rb
+```
+
+result:
+
+```
+check client availability..
+client connected
+
+call the GetSystemInfo method..
+
+{"buildAbi"=>"x86_64-little_endian-llp64", "buildCpuArchitecture"=>"x86_64", "build_number"=>"1.0.5986", "currentCpuArchitecture"=>"x86_64", "netCoreRate"=>25, "networkCores"=>4, "networkEnabled"=>true, "numberOfConnections"=>8, "packetCacheSize"=>920, "uptime"=>"00:05:34"}
 ```
 
 LICENSE
